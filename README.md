@@ -49,6 +49,17 @@ We need conditional probability en each words in email. When email contains both
 We can calculate the probability of email being spam with using each word. Then we can compare this number of probability that is email is a normal email. Then we can do our comparison. This is called the **Bag of Words** approach for classfiyng the documents.
 Each word becomes a feature for us. 
 
+## Evaluation Metrics
+
+| Metric | Score |
+| ---------|----------|
+| Accuracy | 96,98 |
+| Recall| 91,20| 
+| Precision| 97,86| 
+| **F1 Score**| **95,47** | 
+
+![Graph with Decision Boundary](images/evaluation_graph.png)
+
 ## Additional Resources
 
 - [3Blue1Brown - Bayes Rule](https://www.youtube.com/watch?v=HZGCoVF3YvM&t=7s)
